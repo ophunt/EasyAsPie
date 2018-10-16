@@ -1,0 +1,17 @@
+.Tracker {
+	border: 5px solid red;
+	text-align: center;
+	margin: 2px;
+}
+
+.Tracker > * {
+	display: inline;
+}
+
+.minus {
+	float: left;
+}
+
+.plus {
+	float: right;
+}

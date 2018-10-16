@@ -1,0 +1,7 @@
+.Player {
+	width: calc(25% - 14px);
+	border: 5px solid orange;
+	text-align: center;
+	display: inline-block;
+	margin: 2px;
+}
