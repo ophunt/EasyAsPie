@@ -1,11 +1,12 @@
 .Tracker {
-	border: 5px solid red;
 	text-align: center;
 	margin: 2px;
+	display: inline-block;
 }
 
 .Tracker > * {
 	display: inline;
+	margin: 2px;
 }
 
 .minus {

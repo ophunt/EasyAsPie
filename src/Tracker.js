@@ -7,6 +7,12 @@ class Tracker extends React.Component {
 		this.state = {amount: 0}
 		this.subtract = this.subtract.bind(this);
 		this.add = this.add.bind(this);
+		this.color = props.color;
+		this.styles = {
+			border: "5px solid " + this.color,
+			outline: "1px solid black",
+			margin: "4px",
+		}
 	}
 
 	subtract() {
@@ -23,7 +29,7 @@ class Tracker extends React.Component {
 
 	render() {
 		return (
-			<div className="Tracker">
+			<div className="Tracker" style={this.styles}>
 				<button onClick={this.subtract} className="minus">-</button>
 				<h5 className="ingredient">{this.props.name}: {this.state.amount}</h5>
 				<button onClick={this.add} className="plus">+</button>

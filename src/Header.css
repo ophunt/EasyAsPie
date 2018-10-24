@@ -1,0 +1,21 @@
+.Header {
+	margin: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: calc(100% - 24px);
+	border: 10px solid green;
+	text-align: center;
+}
+
+.Header > * {
+	display: inline;
+}
+
+.playerController {
+	margin-left: 10px;
+	float: left;
+}
+
+.playerController > * {
+	display: inline-block;
+}
